@@ -3,7 +3,11 @@ using namespace std;
 
 class seseorang{
 public:
-virtual void pesan(){ //membuat virtual function
+    virtual void pesan(){ //membuat virtual function
+        cout << "Pesan dari seseorang" << endl;
+    }
+};
 
-}
+class jojo :public seseorang {
+    
 };
