@@ -14,3 +14,7 @@ class derivedClass : public baseClass{
             cout << "Hallo saya Function dari drived Class";
         }
 };
+
+int main(){
+    
+}
