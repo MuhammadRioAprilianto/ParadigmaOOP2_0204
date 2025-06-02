@@ -8,14 +8,14 @@ public:
     }
 };
 
-class joko :public seseorang {
+class joko :public seseorang { //kelas joko turunan dari kelas seseorang
     public:
     void pesan() {
         cout << "Pesan dari joko" << endl;
     }
 };
 
-class lia :public seseorang {
+class lia :public seseorang { //kelas lia turunan dari kelas seseorang
 public:
     void pesan() {
         cout << "Pesan dari lia" << endl;
